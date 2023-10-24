@@ -127,7 +127,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CComponent.cpp" />
+    <ClCompile Include="Util\CRTTI.cpp" />
+    <ClCompile Include="Util\CException.cpp" />
+    <ClCompile Include="Game\CTimer.cpp" />
+    <ClCompile Include="Game\CGame.cpp" />
+    <ClCompile Include="Graphics\DX11\CD3DApplication.cpp" />
     <ClCompile Include="R3D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CComponent.h" />
+    <ClInclude Include="Util\CRTTI.h" />
+    <ClInclude Include="Util\CException.h" />
+    <ClInclude Include="Game\CTimer.h" />
+    <ClInclude Include="Game\CGame.h" />
+    <ClInclude Include="Graphics\DX11\CDX.h" />
+    <ClInclude Include="Graphics\DX11\CD3DApplication.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
